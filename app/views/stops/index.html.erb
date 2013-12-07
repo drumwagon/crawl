@@ -1,5 +1,10 @@
-<h1>These are your stop choices</h1>
+<!-- <h1>These are your stop choices</h1>
 <p>Burnet</p>
 <p>UT</p>
 <p>Downtown</p>
-<p>SoCo</p>
+<p>SoCo</p> -->
+
+<% stop_spot = Stop.all %>
+<% stop_spot.each do |spot| %>
+<h3><%= link_to spot.name, stop_path(spot[:id]) %></h3>
+<% end %>
