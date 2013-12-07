@@ -1,4 +1,4 @@
-git# This file should contain all the record creation needed to seed the database with its default values.
+# This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
 # Examples:
@@ -135,7 +135,7 @@ routes = [
 routes.each do |routes|
 	Route.create(routes)
 end
-puts "Created 4 routes"
+puts "Created 3 routes"
 
 Stop.destroy_all
 puts 'Wiped out all stops'
@@ -154,4 +154,8 @@ stops = [
 			name: "SoCo"
 		}
 	]
-]
+
+stops.each do |stops|
+  Stop.create(stops)
+end
+puts "created 4 stops"
