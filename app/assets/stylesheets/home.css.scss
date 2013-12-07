@@ -13,6 +13,9 @@ img{
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow: 3px 3px 5px 6px #ccc;
   border: 2px solid gray;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;
 }
 
 span{
@@ -43,6 +46,4 @@ button{
   background: #3581c8;
 }
 
-.navbar {
-  background: #3581c8
-}
+
