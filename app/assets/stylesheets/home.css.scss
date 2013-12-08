@@ -52,11 +52,15 @@ a:hover {
 
 .navbar-inverse .navbar-brand{
   color: black;
+  font-size: 18px;
 }
 
 .navbar-brand {
   display: inline-block;
   float: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  vertical-align: bottom;
 }
 .navbar-brand {
   text-align: center;

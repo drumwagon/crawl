@@ -2,7 +2,7 @@
 </br>
 
 <p><%= form_for @crawl do |f| %></p>
-	<p>	<%= f.label :name %><%= f.text_field :name, :placeholder => 'Name your crawl'%></p>
+	<p>	<%= f.label :name %> <%= f.text_field :name, :placeholder => 'Name your crawl'%></p>
 	<p><%= f.label :stop_one %>
 	<%= f.collection_select :stop_one, Stop.all, :name, :name %></p>	
 	<p><%= f.label :stop_two %>

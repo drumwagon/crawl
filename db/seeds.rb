@@ -140,7 +140,7 @@ locations = [
   {
     name: "Torchy's Tacos",
     grub: 'both',
-    stop_id: 3, 
+    stop_id: 2, 
     address: "2801 Guadalupe St, Austin, TX 78705", 
     phone: "512.494.8226", 
     image: "http://www.longhornlifeonline.com/sites/default/files/imagecache/400xY/tacos%20cc.jpg",
