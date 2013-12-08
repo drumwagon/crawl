@@ -3,11 +3,11 @@
 
 <% stop_spot = Stop.all %>
 <% stop_spot.each do |spot| %>
-<h3><%= spot.name %></h3>
-<ul>
+<h2><%= spot.name %></h2>
+<p>
 	<% locale = Location.all %>
 	<% locale.find_all_by_stop_id(spot.id).each do |locale| %>
-	<li><%= link_to locale.name, location_path(locale[:id]) %></li>
+	<p><%= link_to locale.name, location_path(locale[:id]) %></p>
 	<% end %>
-</ul>
+</p>
 <% end %>
