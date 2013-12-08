@@ -137,20 +137,11 @@ locations = [
     website: ""
   },
   {
-    name: "Torchy'sTacp",
+    name: "Torchy's Tacos",
     grub: 'both',
     stop_id: 11, 
-    address: "", 
-    phone: "", 
-    image: "",
-    website: ""
-  },
-  {
-    name: "Flying Pig",
-    grub: 'drinks',
-    stop_id: 11, 
-    address: "", 
-    phone: "", 
+    address: "2801 Guadalupe St, Austin, TX 78705", 
+    phone: "512.494", 
     image: "",
     website: ""
   },
