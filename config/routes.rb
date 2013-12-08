@@ -3,5 +3,6 @@ Crawl::Application.routes.draw do
   
   resources :stops
   resources :locations
-  
+  resources :pub_crawls
+
 end

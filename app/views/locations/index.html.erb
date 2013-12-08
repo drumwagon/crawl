@@ -1,2 +1,10 @@
-<h1>Stopss#index</h1>
-<p>Find me in app/views/stops/index.html.erb</p>
+<% stop_spot = Stop.all %>
+<% stop_spot.each do |spot| %>
+<h3><%= spot.name %></h3>
+<ul>
+	<% locale = Location.all %>
+	<% locale.find_all_by_stop_id(spot.id).each do |locale| %>
+	<li><%= link_to locale.name, location_path(locale[:id]) %></li>
+	<% end %>
+</ul>
+<% end %>
