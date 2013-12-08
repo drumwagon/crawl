@@ -1,5 +1,6 @@
 class LocationsController < ApplicationController
   def index
+  	@stop_spot = Stop.all
   end
 
   def show
