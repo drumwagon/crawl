@@ -146,15 +146,6 @@ locations = [
     website: ""
   },
   {
-    name: "Flying Pig",
-    grub: 'drinks',
-    stop_id: 11, 
-    address: "", 
-    phone: "", 
-    image: "",
-    website: ""
-  },
-  {
     name: "Shakespeares",
     grub: 'drinks',
     stop_id: 11, 
