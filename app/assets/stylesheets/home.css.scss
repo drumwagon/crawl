@@ -12,6 +12,10 @@ img{
   -moz-box-shadow: 3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow: 3px 3px 5px 6px #ccc;
+  border: 2px solid gray;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;
 }
 
 span{
@@ -31,6 +35,24 @@ p{
   font-size: 20px;
 }
 
-.navbar {
-  background: #3581c8
+button{
+  background-color: #3581c8;
+  -moz-box-shadow: 0px 5px 7px 0px #ccc;
+  -webkit-box-shadow: 0px 5px 7px 0px #ccc;
+  box-shadow: 0px 5px 7px 0px #ccc;
 }
+
+.navbar {
+  background: #3581c8;
+}
+
+a:hover {
+ color: gray;
+}
+
+.navbar-inverse .navbar-brand{
+  color: black;
+  font-weight: bold;
+}
+
+
