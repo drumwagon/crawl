@@ -1,14 +1,10 @@
 </br>
 </br>
-<h2>This is your crawl</h2>
-<h2><%= @crawl.name %></h2>
+<h2>This is your crawl:</h2>
+<h3><%= @crawl.name %></h2>
 
+	First stop: <%= @crawl.start_point %></br>
+	Second stop: <%= @crawl.second_place %></br>
+	Finish line: <%= @crawl.end_point %></br></br>
 
-<ul>
-	<li><%= @crawl.name %></li>
-	<li>First stop:<%= @crawl.start_point %></li>
-	<li>Second stop:<%= @crawl.second_place %></li>
-	<li>Finish line:<%= @crawl.end_point %></li>
-</ul>
-
-<p><%= link_to 'Back to all locations', locations_path %> - <%= link_to 'home', root_path %></p>
+<p><%= link_to 'All Crawls', pub_crawls_path %> - <%= link_to 'home', root_path %></p>

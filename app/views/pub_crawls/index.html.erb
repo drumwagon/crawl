@@ -1,10 +1,8 @@
 <h1>Check out all the crawls!</h1>
 <% crawl = PubCrawl.all %>
 <% crawl.each do |pc| %>
-<ul>
-	<li><%= pc.name %></li>
-	<li>First stop:<%= pc.start_point %></li>
-	<li>Second stop:<%= pc.second_place %></li>
-	<li>Finish line:<%= pc.end_point %></li>
-</ul>
+	<h3><%= link_to pc.name, pc %></h3>
+	First stop: <%= link_to pc.start_point, location_path %></br>
+	Second stop: <%= pc.second_place %></br>
+	Finish line: <%= pc.end_point %></br>
 <% end %>
