@@ -104,46 +104,46 @@ locations = [
     name: "Hopfield's",
     grub: 'both',
     stop_id: 10,
-    address: "",
-    phone: "",
-    image: "",
-    website: ""
+    address: "3110 Guadalupe St, Austin, TX ",
+    phone: "512.537.0467",
+    image: "http://gallivant.com/p/2012/12/hopfields-1.jpg",
+    website: "http://hopfieldsaustin.com/"
   },
   {
     name: "Trudy's",
     grub: 'both',
     stop_id: 10,
-    address: "",
-    phone: "",
-    image: "",
-    website: ""
+    address: "409 West 30th Street, Austin, TX 78705",
+    phone: "512.477.2935",
+    image: "http://www.austinchronicle.com/binary/2e57/trudys30th.jpeg",
+    website: "http://www.trudys.com/trudys-central.php"
   },
   {
     name: "Spider House",
     grub: 'both',
     stop_id: 10,
-    address: "",
-    phone: "",
-    image: "",
-    website: ""
+    address: "2908 Fruth St. Austin, TX 78705",
+    phone: "512.480.9562",
+    image: "http://www.brooklynvegan.com/img/music2/spiderhouse.jpg",
+    website: "http://spiderhousecafe.com/"
   },
   {
     name: "Dirty Martins",
     grub: 'both',
     stop_id: 10,
-    address: "",
-    phone: "",
-    image: "",
-    website: ""
+    address: "2808 Guadalupe St, Austin, TX 78705",
+    phone: "512.477.3173",
+    image: "http://www.zzzlist.com/celebs/Features/SXSW2008/SXSWDirtys.jpg",
+    website: "http://dirtymartins.com/"
   },
   {
     name: "Torchy's Tacos",
     grub: 'both',
     stop_id: 11, 
     address: "2801 Guadalupe St, Austin, TX 78705", 
-    phone: "512.494", 
-    image: "",
-    website: ""
+    phone: "512.494.8226", 
+    image: "http://www.longhornlifeonline.com/sites/default/files/imagecache/400xY/tacos%20cc.jpg",
+    website: "http://www.torchystacos.com/"
   },
   {
     name: "Shakespeares",
