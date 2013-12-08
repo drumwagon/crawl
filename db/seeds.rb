@@ -12,6 +12,7 @@ puts 'Wiped out all Cralws'
 
 crawls = [
     {
+      name: "NorthSide!"
       start_point: "Burnet", 
       second_place: "University", 
       end_point: "SoCo"
