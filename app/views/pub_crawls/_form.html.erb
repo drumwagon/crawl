@@ -3,12 +3,12 @@
 
 <p><%= form_for @crawl do |f| %></p>
 	<p>	<%= f.label :name %><%= f.text_field :name, :placeholder => 'Name your crawl'%></p>
-	<p><%= f.label :start_point %>
-	<%= f.collection_select :start_point, Stop.all, :name, :name %></p>	
-	<p><%= f.label :second_place %>
-	<%= f.collection_select :second_place, Stop.all, :name, :name %></p>
-	<p><%= f.label :end_point %>
-	<%= f.collection_select :end_point, Stop.all, :name, :name %></p>
+	<p><%= f.label :stop_one %>
+	<%= f.collection_select :stop_one, Stop.all, :name, :name %></p>	
+	<p><%= f.label :stop_two %>
+	<%= f.collection_select :stop_two, Stop.all, :name, :name %></p>
+	<p><%= f.label :stop_three %>
+	<%= f.collection_select :stop_three, Stop.all, :name, :name %></p>
 	<p><%= f.submit %></p>
 
 <p><% end %></p>

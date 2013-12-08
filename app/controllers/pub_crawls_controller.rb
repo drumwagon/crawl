@@ -22,7 +22,7 @@ class PubCrawlsController < ApplicationController
 
   private
   def crawl_params
-    params.require(:pub_crawl).permit(:start_point, :second_place, :end_point, :name)
+    params.require(:pub_crawl).permit(:stop_one, :stop_two, :stop_three, :name)
   end
 
 end

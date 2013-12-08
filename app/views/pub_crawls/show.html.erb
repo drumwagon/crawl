@@ -3,8 +3,8 @@
 <h2>This is your crawl:</h2>
 <h3><%= @crawl.name %></h2>
 
-	First stop: <%= @crawl.start_point %></br>
-	Second stop: <%= @crawl.second_place %></br>
-	Finish line: <%= @crawl.end_point %></br></br>
+	First stop: <%= @crawl.stop_one %></br>
+	Second stop: <%= @crawl.stop_two %></br>
+	Finish line: <%= @crawl.stop_three %></br></br>
 
 <p><%= link_to 'All Crawls', pub_crawls_path %> - <%= link_to 'home', root_path %></p>

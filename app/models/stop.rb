@@ -1,4 +1,4 @@
 class Stop < ActiveRecord::Base
-	belongs_to :location
+	has_many :locations
 	belongs_to :pub_crawl
 end
