@@ -1,3 +1,4 @@
 class Location < ActiveRecord::Base
-	belongs_to :stop
+	has_many :stops
+	has_many :pub_crawls, through: :stops
 end

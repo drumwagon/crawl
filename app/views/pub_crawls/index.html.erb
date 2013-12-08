@@ -2,7 +2,7 @@
 <% crawl = PubCrawl.all %>
 <% crawl.each do |pc| %>
 	<h3><%= link_to pc.name, pc %></h3>
-	First stop: <%= link_to pc.start_point, location_path %></br>
-	Second stop: <%= pc.second_place %></br>
-	Finish line: <%= pc.end_point %></br>
+	First stop: <%= link_to pc.start_point, stop_path(id) %></br>
+	Second stop: <%= link_to pc.second_place, stops_path %></br>
+	Finish line: <%= link_to pc.end_point, stops_path %></br>
 <% end %>
