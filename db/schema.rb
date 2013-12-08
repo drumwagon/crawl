@@ -22,10 +22,14 @@ ActiveRecord::Schema.define(version: 20131208175010) do
     t.integer  "stop_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "longitude"
+    t.string   "latitude"
     t.text     "address"
     t.string   "phone"
     t.string   "image"
     t.text     "website"
+    t.float    "long"
+    t.float    "lat"
   end
 
   create_table "pub_crawls", force: true do |t|
@@ -47,6 +51,7 @@ ActiveRecord::Schema.define(version: 20131208175010) do
     t.integer  "route_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "image_url"
     t.string   "latitude"
     t.string   "longitude"
     t.text     "color"
